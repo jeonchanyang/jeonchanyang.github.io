@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.black-nav{display:flex; justify-content:space-between; align-items:center; width:100%; padding:20px; color:#fff; background:#000; box-sizing:border-box;}
+div{box-sizing:border-box;}
+.list{text-align:left; padding-left:20px; border-bottom:1px solid grey;}
+.modal{margin:20px 0 0; padding:20px; text-align:left; background:#eee;}
+.black-nav .fr button + button{margin-left:5px;}
+.cr-point{cursor:pointer;}
+ul,li{margin:0; padding:0; list-style:none;}
+h4{margin:0;}
+h1{font-size:inherit;}
+fieldset{margin:0; padding:0; border:0;}
+legend, .sr-only{position:absolute; left:-9999px; width:1px; height:1px; margin:0; padding:0;}
+.list{padding:1rem;}
+.list-form fieldset{padding:1rem;}
+.list-form .push{display:flex; gap:0.5rem; justify-content:flex-start; align-items:center;}
